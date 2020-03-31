@@ -7,12 +7,12 @@ public class Program5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number: ");
-		int l = sc.nextInt();
-		int n = 0, sum = 0, count = 0;
+		long l = sc.nextLong();
+		long n = 0, sum = 0, count = 0;
 		while (l != 0) {
 			n=l%10;
 			sum = sum + n;
-			l = n / 10;
+			l = l / 10;
 			count++;
 			// System.out.println("in");
 		}
